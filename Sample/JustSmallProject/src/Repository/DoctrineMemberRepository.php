@@ -224,6 +224,7 @@ final class DoctrineMemberRepository extends DoctrineRepository implements Membe
      */
     protected function hydrate(array $row)
     {
+        date_default_timezone_set('America/Los_Angeles');
         return new Member(
         $row['username'],
         $row['password'],

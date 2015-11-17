@@ -1,5 +1,5 @@
 {
-    "name": "Sample/candidate-challenge",
+    "name": "Sample/JustSmallProject",
     "description": "Challenge...",
     "require": {
         "php": "~5.4",
