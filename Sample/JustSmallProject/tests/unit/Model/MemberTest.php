@@ -77,6 +77,6 @@ final class MemberTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('et', $this->SUT->getPassword());
         $this->assertSame('kovacek.keara', $this->SUT->getUsername());
         $this->assertEquals('150 lbs', $this->SUT->getWeight());
-        $this->assertSame(22, $this->SUT->getAge());
+        $this->assertSame(23, $this->SUT->getAge());
     } 
 }
